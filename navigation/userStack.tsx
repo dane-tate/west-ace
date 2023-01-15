@@ -3,7 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Icon from 'react-native-vector-icons/Feather';
 
-import SignUp from '../screens/SignUp';
+import HomeScreen from '../screens/HomeScreen';
 
 
 
@@ -17,7 +17,7 @@ const Stack = createStackNavigator();
       <Stack.Navigator screenOptions={{
     headerShown: false
       }}>
-        <Stack.Screen name="Sign Up" component={SignUp} />
+        <Stack.Screen name="Home" component={HomeScreen} />
 
       </Stack.Navigator>
     </NavigationContainer>
